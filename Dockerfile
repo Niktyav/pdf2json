@@ -10,8 +10,6 @@ RUN apt install tesseract-ocr-all -y
 RUN pip install --user --upgrade pip
 RUN pip install --user -r requirements.txt
 RUN pip install Spire.Pdf
-RUN pip install tabulate 
-RUN pip install json_repair
 RUN mkdir -p docs
 ENV BOT_TOKEN=YOUR_TOKEN
 ENV GIGA_TOKEN=YOUR_TOKEN
